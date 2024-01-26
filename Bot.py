@@ -70,7 +70,7 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴏɴᴇ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀʟᴏɴᴇ](https://t.me/ALONE_WAS_BOT)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ᴀʟᴏɴᴇ\n✪ ᴜᴘᴅᴀᴛᴇs [ᴀʟᴏɴᴇ ɴᴇᴛᴡᴏʀᴋ](https://t.me/AloneXBots\n✪✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴏɴᴇ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀʟᴏɴᴇ](https://t.me/ALONE_WAS_BOT)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ᴀʟᴏɴᴇ\n✪ ᴜᴘᴅᴀᴛᴇs [ᴀʟᴏɴᴇ ɴᴇᴛᴡᴏʀᴋ](https://t.me/AloneXBots)\n✪✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
