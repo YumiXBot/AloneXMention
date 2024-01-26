@@ -1,7 +1,7 @@
 # A Powerful Music And Management Bot
 # Property Of Branded Indian Largest Support Group
 # Rocks © @BRANDRD_BOT © BRANDRD
-# Owner BRANDED + BRANDRD_BOT + BRANDED_WORLD 
+# Owner @ALONE_WAS_BOT
 
 
 import os, logging, asyncio
@@ -36,13 +36,13 @@ async def start(event):
     
     await event.client.send_file(
         event.chat_id,
-        file="https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg",
-        caption="━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ʙʀᴀɴᴅᴇᴅ ʙᴏᴛ](https://t.me/BRANDRD_BOT)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ʙʀᴀɴᴅᴇᴅ ʜᴇʟᴘ](https://t.me/BRANDED_WORLD)┓\n┣★ ʀᴇᴘᴏ › : [ʙʀᴀɴᴅᴇᴅ ʀᴇᴘᴏ](https://github.com/WCGKING/BrandedXMention)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/BRANDEDKING82) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        file="https://telegra.ph/file/2840312401a8f495fc8b3.jpg",
+        caption="━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴀʟᴏɴᴇ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴀʟᴏɴᴇ](https://t.me/ALONE_WAS_BOT)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀʟᴏɴᴇ ɴᴇᴛᴡᴏʀᴋ](https://t.me/AloneXBots)┓\n┣★ ʀᴇᴘᴏ › : [ᴀʟᴏɴᴇ ʀᴇᴘᴏ](https://t.me/ALONE_WAS_BOT)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/ALONE_WAS_BOT) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=[
-            [Button.url("❤️‍🔥 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💫", "https://t.me/Branded_MentionBot?startgroup=true")],
-            [Button.url("❤️‍🔥 ɢʀᴏᴜᴘ 💫", "https://t.me/BRANDED_WORLD"), Button.url("❤️‍🔥 ᴄʜᴀɴɴᴇʟ 💫", "https://t.me/BRANDRD_BOT")],
-            [Button.url("❤️‍🔥 ʜᴇʀᴜᴋᴏ ᴄᴄ 💫", "https://t.me/BRANDED_PAID_CC"), Button.url("❤️‍🔥 BRANDED ❤️‍🔥", "https://t.me/BRANDEDKING82")]
+            [Button.url("ᴀᴅᴅ ᴍᴇ", "https://t.me/Branded_MentionBot?startgroup=true")],
+            [Button.url("ᴅᴇᴠ", "https://t.me/ALONE_WAS_BOT")],
+            [Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/AloneXBots")]
         ]
     )
 
@@ -52,14 +52,14 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /mentionall Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
+    helptext = "✪ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀʟᴏɴᴇ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /utag\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /utag Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("❤️‍🔥 ꜱᴜᴘᴘᴏʀᴛ 💫", "https://t.me/BRANDED_WORLD"),
-                Button.url("❤️‍🔥 ʏᴏᴜᴛᴜʙᴇ 💫", "https://youtube.com/@TrickyBranded?si=LiWu6DkLNs4bcZn6"),
+                Button.url("ᴀʟᴏɴᴇ", "https://t.me/ALONE_WAS_BOT"),
+                Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/AloneXBots"),
             ]
         ),
     )
@@ -70,21 +70,21 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ʙʀᴀɴᴅᴇᴅ ʙᴏᴛ](https://t.me/BRANDRD_BOT)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʙʀᴀɴᴅᴇᴅ\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://youtube.com/TrickyBranded)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴏɴᴇ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀʟᴏɴᴇ](https://t.me/ALONE_WAS_BOT)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ᴀʟᴏɴᴇ\n✪ ᴜᴘᴅᴀᴛᴇs [ᴀʟᴏɴᴇ ɴᴇᴛᴡᴏʀᴋ](https://t.me/AloneXBots\n✪✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("❤️‍🔥 ꜱᴜᴘᴘᴏʀᴛ 💫", "https://t.me/BRANDED_WORLD"),
-                Button.url("❤️‍🔥 ʏᴏᴜᴛᴜʙᴇ 💫", "https://youtube.com/TrickyBranded"),
+                Button.url("ᴀʟᴏɴᴇ", "https://t.me/ALONE_WAS_BOT"),
+                Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/AloneXBots"),
             ]
         ),
     )
 
 
-@client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
-async def mentionall(event):
+@client.on(events.NewMessage(pattern="^/utag ?(.*)"))
+async def utag(event):
     chat_id = event.chat_id
     if event.is_private:
         return await event.respond(
@@ -144,7 +144,7 @@ async def mentionall(event):
         pass
 
 
-@client.on(events.NewMessage(pattern="^/admins|/admin|@admin|@admins ?(.*)"))
+@client.on(events.NewMessage(pattern="^/admins|@admins ?(.*)"))
 async def _(event):
     chat_id = event.chat_id
     if event.is_private:
@@ -216,11 +216,11 @@ async def cancel_spam(event):
         return await event.respond("sᴛᴏᴘᴘᴇᴅ.")
 
 
-print(">> ʙʀᴀɴᴅᴇᴅ ᴍᴇɴᴛɪᴏɴ BOT WORKING <<")
+print(">> ᴀʟᴏɴᴇ ᴍᴇɴᴛɪᴏɴ BOT WORKING <<")
 client.run_until_disconnected()
 
 
 # A Powerful Music And Management Bot
 # Property Of Branded Indian Largest Support Group
 # Rocks © @BRANDRD_BOT © BRANDRD
-# Owner BRANDRD + BRANDRD_BOT + BRANDED_WORLD + BRANDRD SUPPORT CHAT 
+# Owner BRANDRD + BRANDRD_BOT + AloneXBots + BRANDRD SUPPORT CHAT 
