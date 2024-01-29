@@ -28,7 +28,7 @@ client = TelegramClient("client", api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
 
-@client.on(events.NewMessage(pattern="^/start$"))
+@client.on(events.NewMessage(pattern="^/alonestart$"))
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
